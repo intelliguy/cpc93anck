@@ -1,6 +1,6 @@
 #!/bin/bash
 DECAPOD_BASE_URL=https://github.com/openinfradev/decapod-base-yaml.git
-BRANCH="main"
+BRANCH="lma_logging_selective"
 DOCKER_IMAGE_REPO="docker.io"
 GITHUB_IMAGE_REPO="ghcr.io"
 outputdir="output"

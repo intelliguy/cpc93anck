@@ -5,13 +5,13 @@ metadata:
 
 global:
   # These values are replaced on cluster creation by workflow
-  clusterName: cpc93anck
-  sshKeyName: tks-seoul
-  clusterRegion: ap-northeast-2
-  mdNumOfAz: 3
-  mdMinSizePerAz: 1
-  mdMaxSizePerAz: 5
-  mdMachineType: t3.large
+  clusterName: cluster.local
+  sshKeyName: CHANGEME
+  clusterRegion: CHANGEME
+  mdNumOfAz: CHANGEME
+  mdMinSizePerAz: CHANGEME
+  mdMaxSizePerAz: CHANGEME
+  mdMachineType: CHANGEME
 charts:
 - name: cluster-api-aws
   override:
